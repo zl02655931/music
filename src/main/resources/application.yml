@@ -7,3 +7,6 @@ spring:
     url: jdbc:mysql://localhost:3306/music?useSSL=false&useUnicode=true&characterEncodeing=UTF-8&serverTimezone=Asia/Shanghai
     username: root
     password: root
+    tomcat:
+      test-on-borrow: true
+      test-while-idle: true
