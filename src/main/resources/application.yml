@@ -7,6 +7,3 @@ spring:
     url: jdbc:mysql://${MYSQL_ADDRESS}/${MYSQL_DATABASE}?useSSL=false&useUnicode=true&characterEncodeing=UTF-8&serverTimezone=Asia/Shanghai
     username: ${MYSQL_USERNAME}
     password: ${MYSQL_PASSWORD}
-    tomcat:
-      test-on-borrow: true
-      test-while-idle: true
