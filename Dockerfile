@@ -18,10 +18,6 @@ RUN mvn -f /app/pom.xml clean package
 # 选择运行时基础镜像
 FROM alpine:3.13
 
-ENV MYSQL_ADDRESS 10.0.224.2:3306
-ENV MYSQL_DATABASE music
-ENV MYSQL_USERNAME root
-ENV MYSQL_PASSWORD My327243872
 
 # 安装依赖包，如需其他依赖包，请到alpine依赖包管理(https://pkgs.alpinelinux.org/packages?name=php8*imagick*&branch=v3.13)查找。
 # 选用国内镜像源以提高下载速度
